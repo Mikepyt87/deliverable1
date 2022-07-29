@@ -178,6 +178,40 @@ branch 'main' set up to track 'origin/main'.
 
 ### Step 6
 
+$ git status
+On branch main
+Your branch is ahead of 'origin/main' by 2 commits.
+  (use "git push" to publish your local commits)
+
+Changes not staged for commit:
+  (use "git add/rm <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+        deleted:    my-steps (1).txt
+        modified:   my-steps.txt
+
+no changes added to commit (use "git add" and/or "git commit -a")
+
+mikep@MichaelsLaptop MINGW64 ~/Desktop/unit1-git-practice (main)
+$ git add .
+warning: in the working copy of 'my-steps.txt', LF will be replaced by CRLF the next time Git touches it
+
+mikep@MichaelsLaptop MINGW64 ~/Desktop/unit1-git-practice (main)
+$ git commit -m 'starting menu'
+[main fde6629] starting menu
+ 2 files changed, 97 insertions(+), 185 deletions(-)
+ delete mode 100644 my-steps (1).txt
+
+mikep@MichaelsLaptop MINGW64 ~/Desktop/unit1-git-practice (main)
+$ git push
+Enumerating objects: 10, done.
+Counting objects: 100% (10/10), done.
+Delta compression using up to 20 threads
+Compressing objects: 100% (7/7), done.
+Writing objects: 100% (8/8), 1.79 KiB | 1.79 MiB/s, done.
+Total 8 (delta 3), reused 0 (delta 0), pack-reused 0
+remote: Resolving deltas: 100% (3/3), completed with 1 local object.
+To https://github.com/Mikepyt87/deliverable1.git
+   c488768..fde6629  main -> main
 
 ### Step 7
 *** DO NOT RECORD STEP 7 ***
