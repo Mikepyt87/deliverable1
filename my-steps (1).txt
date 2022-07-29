@@ -1,0 +1,183 @@
+### Step 2A
+
+/c/Users/mikep
+
+### Step 2B
+
+$ $ cd Desktop/
+
+
+### Step 2C
+
+$ cd unit1-git-practice/
+
+
+### Step 2D
+
+/C/Users/mikep/Desktop/unit1-git-practice
+
+### Step 2E
+
+$ ls
+
+### Step 2F
+
+'my-steps (1).txt'
+
+### Step 2G
+
+$ cd ~
+
+### Step 2H
+
+/c/Users/mikep
+
+### Step 2I
+
+  ./
+ ../
+ .bash_history
+ .gitconfig
+ .platformio/
+ .vscode/
+ AppData/
+'Application Data'@
+ Contacts/
+ Cookies@
+'Creative Cloud Files'/
+'Creative Cloud Files mikepyt87@gmail.com 1241945a955912f3f5e39f4c09337123605cd7e97395dc2ee61ee38ffbb94070'/
+ Desktop/
+ Documents/
+ Downloads/
+ Favorites/
+ Links/
+'Local Settings'@
+ Music/
+'My Documents'@
+ NTUSER.DAT
+ NTUSER.DAT{c9319f04-c835-11ec-b910-eefce01beda8}.TM.blf
+ NTUSER.DAT{c9319f04-c835-11ec-b910-eefce01beda8}.TMContainer00000000000000000001.regtrans-ms
+ NTUSER.DAT{c9319f04-c835-11ec-b910-eefce01beda8}.TMContainer00000000000000000002.regtrans-ms
+ NetHood@
+ OneDrive/
+ Pictures/
+ PrintHood@
+ Recent@
+'Saved Games'/
+ Searches/
+ SendTo@
+'Start Menu'@
+ Templates@
+ Videos/
+ ansel/
+ ntuser.dat.LOG1
+ ntuser.dat.LOG2
+ ntuser.ini
+
+### Step 2J
+
+cd ~
+
+### Step 2K
+
+$ cd Desktop/unit1-git-practice/
+
+### Step 3A
+
+$ mkdir veggies meats desserts
+
+### Step 3B
+
+$ mv desserts sweets
+
+### Step 3C
+
+$ mkdir proteins
+
+### Step 3D
+
+$ mv meats proteins
+
+### Step 3E
+
+$ cd veggies
+$ mkdir carrot.txt pea.txt
+
+### Step 3F
+
+$ cd ..
+$ cd sweets
+$ touch cookie.txt
+
+### Step 3G
+
+$ mv cookie.txt donut.txt
+
+### Step 3H
+
+$ cd ..
+$ ls
+$ touch thing.txt
+
+### Step 3I
+
+$ cp thing.txt tofu.txt
+
+### Step 3J
+
+$ mv tofu.txt proteins/
+
+### Step 3K
+
+$ cp thing.txt crab.txt
+$ mv crab.txt proteins/meats/
+
+### Step 3L
+
+$ rm thing.txt
+
+### Step 3M
+
+$ cp -r veggies/ plants
+
+### Step 3N
+
+$ mkdir drinks
+$ rm -r drinks/
+
+### Step 4
+
+$ git init
+$ git add .
+$ git commit -m "first commit through command line"
+[master (root-commit) c488768] first commit through command line
+ 8 files changed, 88 insertions(+)
+ create mode 100644 my-steps.txt
+ create mode 100644 plants/carrot.txt
+ create mode 100644 plants/pea.txt
+ create mode 100644 proteins/meats/crab.txt
+ create mode 100644 proteins/tofu.txt
+ create mode 100644 sweets/donut.txt
+ create mode 100644 veggies/carrot.txt
+ create mode 100644 veggies/pea.txt
+
+### Step 5
+
+$ git remote add origin https://github.com/Mikepyt87/deliverable1.git
+$ git branch -M main
+$ git push -u origin main
+Enumerating objects: 8, done.
+Counting objects: 100% (8/8), done.
+Delta compression using up to 20 threads
+Compressing objects: 100% (5/5), done.
+Writing objects: 100% (8/8), 681 bytes | 681.00 KiB/s, done.
+Total 8 (delta 0), reused 0 (delta 0), pack-reused 0
+To https://github.com/Mikepyt87/deliverable1.git
+ * [new branch]      main -> main
+branch 'main' set up to track 'origin/main'.
+
+### Step 6
+
+
+### Step 7
+*** DO NOT RECORD STEP 7 ***
